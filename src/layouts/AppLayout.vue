@@ -1,5 +1,6 @@
 <template>
   <q-layout view="lHh lpR fFf">
+    <!-- headers + drawes should move to their components -->
     <q-header class="bg-white text-grey">
       <q-toolbar>
         <q-input

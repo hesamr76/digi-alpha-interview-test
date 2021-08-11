@@ -12,6 +12,7 @@
 
     <p class="text-h6">Last Transactions</p>
 
+    <!-- need to be develop as two components for list and list item  -->
     <q-list padding>
       <q-item-label header>
         <div class="row items-center justify-between">
@@ -106,6 +107,7 @@ export default {
 
   data() {
     return {
+      // data of cards and transactions should fetch from store
       creditCards: [
         {
           id: 1,
